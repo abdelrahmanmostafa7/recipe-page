@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('./fonts/outfit/Outfit-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./fonts/outfit/Outfit-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('./fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+font-family: 'Young Serif', serif;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+  font-family: 'Young Serif', serif;
+}
+
+/* Paragraph */
+p {
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+span {
+  color: hsl(0, 76%, 28%);
+  font-weight: bold;
+}
+ 
+li{
+    margin-bottom: 10px;
+}
+
+.recipeImage{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.PreparationContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.Preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0px 30px;
+}
+
+.NutritionRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 5px 0;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+
+}
+
+.container{
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+}
